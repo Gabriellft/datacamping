@@ -1,10 +1,9 @@
 
+
 import pandas as pd
 
 import streamlit as st
-
 from sklearn.naive_bayes import BernoulliNB
-
 import matplotlib.pyplot as plt
 import sqlite3
 from bertopic import BERTopic
@@ -17,6 +16,7 @@ from nltk.corpus import stopwords
 
 from nltk.tokenize import word_tokenize
 from wordcloud import WordCloud
+
 
 
 
